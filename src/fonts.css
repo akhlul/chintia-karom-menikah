@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Heart Breath DEMO';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('./fonts/HeartBreath-DEMO.woff') format('woff');
+    /* src: url('./files/pt-sans-latin-400-normal.woff2') format('woff2'), url('./files/pt-sans-all-400-normal.woff') format('woff'); */
+}
