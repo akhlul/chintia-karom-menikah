@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Ayat from "./components/Ayat";
 
+import Event from "./components/Event"
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
@@ -22,15 +23,15 @@ const App = () => {
       <chakra.header
         h={"100vh"}
         >
-        <Header />
         <Hero />
       </chakra.header>
 
       <chakra.main>
+        <Header />
 
         <Ayat />
         {/* <Couples /> */}
-        {/* <Events /> */}
+        <Event />
         <Gallery />
 
         {/* <Maps /> */}
@@ -44,3 +45,40 @@ const App = () => {
 }
 
 export default App
+
+
+  // content: "";
+  // background: url("/images/leaves-ti-p.png");
+  // position: absolute;
+  // left: -100px;
+  // bottom: 100%;
+  // height: 150px;
+  // width: 200px;
+  // z-index: 1;
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // background-position: bottom;
+
+// position: absolute;
+// top: 0;
+// bottom: 0;
+// width: 100 %;
+// height: 100 %;
+
+// position: absolute;
+// top: 0;
+// bottom: 100%;
+// width: 500px;
+// height: 100%;
+// // background-size: contain;
+
+// <Box w="full" h={"100vh"} _after={{
+  // content: `""`,
+  // background: `url(${img_bungabesar}) 0 0 no-repeat`,
+  // backgroundSize: 'contain',
+  // position: "absolute",
+  // top: 0,
+  // bottom: "100%",
+  // width: "500px",
+  // height: "100%",
+// }}>

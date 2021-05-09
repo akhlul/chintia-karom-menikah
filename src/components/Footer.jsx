@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import {
   Box,
   Container,
@@ -9,7 +10,6 @@ import {
   Tag,
   useColorModeValue,
 } from '@chakra-ui/react';
-import React, { useState } from 'react'
 import { ReactNode } from 'react';
 
 const Logo = (props) => {
